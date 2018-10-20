@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="297dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="37dp"
+        app:srcCompat="@drawable/notepadsecond" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Animation.Activity"
+        android:layout_width="195dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="cursive"
+        android:text="Catatan"
+        android:textAlignment="center"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
